@@ -1,19 +1,43 @@
-:root { 
-    background-color: #383838;
+:root {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div { 
-    background-color: #474747;
-    padding: 10px;
-    
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; /* center x */
+    align-items: flex-start; /* topdown y */
+    padding: 40px;
 }
 
+.child-game {
+    width: 100%;;
+    height: 200px;
+    background-color: #ebebeb;
 
-div h1 {
-    color: white;
+    border-color: #cbcbcb;
+    border-width: 2px;
+    border-radius: 8px;
+    border-style: solid;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-#seperator { 
-    padding: 10px;
+.main-container {
+
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; /* left right x */
+
+    background-color: #f5f5f5;
+
+    border-radius: 1px;
+    border-style: solid;
+    border-radius: 16px;
+    border-color: #ebebeb;
+
+    width: 100vh;
+    padding: 30px;
 }

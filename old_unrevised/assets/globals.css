@@ -1,0 +1,29 @@
+:root { 
+    background-color: #383838;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div { 
+    background-color: #474747;
+    padding: 10px;
+    margin: 50px;
+    margin-bottom: -30px;
+    border-radius: 24px;
+    
+
+    transition: transform 0.25s ease;
+}
+
+div:hover {
+    transform: translateY(-8px);
+}
+
+ 
+
+div h1 {
+    color: white;
+}
+
+#seperator { 
+    padding: 10px;
+}
