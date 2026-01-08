@@ -11,20 +11,6 @@ body {
     padding: 40px;
 }
 
-.game-container {
-    width: 100%;;
-    height: 200px;
-    background-color: #ebebeb;
-
-    border-color: #cbcbcb;
-    border-width: 2px;
-    border-radius: 8px;
-    border-style: solid;
-
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 .main-container {
 
     display: flex;
@@ -38,6 +24,44 @@ body {
     border-radius: 16px;
     border-color: #ebebeb;
 
-    width: 100vh;
+    width: 50vw;
     padding: 30px;
+}
+
+.game-container {
+    width: 100%;
+    height: 200px;
+    background-color: #ebebeb;
+
+    border-color: #cbcbcb;
+    border-width: 2px;
+    border-radius: 8px;
+    border-style: solid;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.game-container img {
+    height: 80%;
+    width: 170px;
+    object-fit: cover;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+.gc-right-container {
+    height: 80%;
+    margin-left: 20px;
+    flex: 0.97; /* set flex to wo width itself by 0.97*/
+    display: flex;
+    flex-direction: column;
+}
+
+.gc-right-container h2 {
+    margin-top: 5px;
+    margin-bottom: 0px;
 }
