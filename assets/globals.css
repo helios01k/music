@@ -66,6 +66,10 @@ body {
     margin-bottom: 0px;
 }
 
+button {
+    transition: transform 0.25s ease;
+}
+
 .gc-right-container button {
     background-color: #004ece;
     color: white;
@@ -74,4 +78,8 @@ body {
     padding: 10px;
     font-weight: bold;
     border-radius: 12px;
+}
+
+.gc-right-container button:hover {
+    transform: translateY(-8px);
 }
