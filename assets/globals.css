@@ -72,12 +72,14 @@ button {
 
 .gc-right-container button {
     background-color: #004ece;
+    border-color: #004ece;
     color: white;
     margin-top: 20px;
     max-width: 10vw;
     padding: 10px;
     font-weight: bold;
     border-radius: 12px;
+
 }
 
 .gc-right-container button:hover {
